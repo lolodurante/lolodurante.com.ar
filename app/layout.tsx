@@ -11,16 +11,16 @@ import { baseUrl } from './sitemap'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Next.js Portfolio Starter',
-    template: '%s | Next.js Portfolio Starter',
+    default: 'Lorenzo Durante / full stack developer',
+    template: '%s | Lorenzo Durante',
   },
-  description: 'This is my portfolio.',
+  description: 'Soy un desarrollador web full stack y estudiante de Licenciatura en Ciencias de la Computación en la UBA',
   openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
+    title: 'Lorenzo Durante / full stack developer',
+    description: 'Soy un desarrollador web full stack y estudiante de Licenciatura en Ciencias de la Computación en la UBA.',
     url: baseUrl,
-    siteName: 'My Portfolio',
-    locale: 'en_US',
+    siteName: 'Lorenzo Durante / full stack developer',
+    locale: 'es_AR',
     type: 'website',
   },
   robots: {
